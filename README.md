@@ -1,7 +1,7 @@
 # Haskell + Zookeeper = :heart::heart::heart:
 
 ## Prerequisites
-* [ZooKeeper](http://zookeeper.apache.org/) you can use this setup [vagrant](https://github.com/slon1024/vagrant-cluster-storm)
+* [ZooKeeper](http://zookeeper.apache.org/) (*you can use this  [vagrant](https://github.com/slon1024/vagrant-cluster-storm) setup*)
 * `cabal install` [hzk](https://github.com/dgvncsz0f/hzk)
 
 ## Examples
@@ -20,4 +20,4 @@ ZK.withZookeeper quorumZk timeoutInMs watcher clientId $ \zh -> do
 
 ## Run it
 * `vangrant up` #see prerequisites
-* `runhaskell Zookeeper.hs`
+* `runhaskell` [Zookeeper.hs](https://github.com/slon1024/haskell_zookeeper/blob/master/Zookeeper.hs)
