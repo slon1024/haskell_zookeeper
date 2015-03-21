@@ -12,12 +12,12 @@ module Main where
 
       ZK.withZookeeper quorumZk timeoutInMs watcher clientId $ \zh -> do
           create zh path
-          exists zh path watcher
-          get zh path watcher
-          set zh path "value756"
-          get zh path watcher
-          create zh pathChild
-          getChildren zh path watcher
+          -- exists zh path watcher
+          -- get zh path watcher
+          -- set zh path "value756"
+          -- get zh path watcher
+          -- create zh pathChild
+          -- getChildren zh path watcher
 
 
   create :: ZK.Zookeeper -> String -> IO String
